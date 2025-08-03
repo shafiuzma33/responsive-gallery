@@ -24,6 +24,17 @@ h1{
     padding: 10px;
 }
 
+.photo {
+    text-align: center;
+}
+
+.photo p {
+    margin-top: 8px;
+    font-size: 25px;
+    color: #333;
+}
+
+
 @media(max-width: 1024px){
     .images{
         grid-template-columns: repeat(3,1fr);
